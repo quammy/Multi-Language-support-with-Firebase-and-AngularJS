@@ -16,7 +16,7 @@ var refLang;
 var onLangChange;
 
 $(document).on("pageinit", "#page_Main", function (event) {
-    ref = new Firebase('https://alon.firebaseio.com/');
+    ref = new Firebase('https://[your FB].firebaseio.com/');
     ChangeLangTo("En");//default lang
 });
 
